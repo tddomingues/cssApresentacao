@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Economia</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Fofoca</a></li>
+            </ul> 
+        </nav>
+
+        <div class="linksInicio">
+            <ul>
+                <li><a href="index2.html">Início</a></li>
+            </ul>
+            <ul>
+                <li><img src="logo.png" alt="" id="logo"></li> 
+            </ul>
+            <ul>
+                <li><a href="">Cadastro</a></li><br>
+                <li><a href="">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <div class="containerNoticia">
+            <div class="boxNoticia">
+                <h1>Cadastro</h1><br>
+                <form class="formDesign">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome"><br><br>
+            
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id="sobrenome" name="sobrenome"><br><br>
+            
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email"><br><br>
+            
+                    <label for="data-nascimento">Data de nascimento:</label>
+                    <input type="date" id="data-nascimento" name="data-nascimento"><br><br>
+            
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone"><br><br>
+            
+                    <label for="interesse">Qual conteúdo mais te interessa?</label>
+                    <select id="interesse" name="interesse">
+                        <option value="noticias">Notícias</option>
+                        <option value="fofocas">Fofocas</option>
+                        <option value="entretenimento">Entretenimento</option>
+                    </select><br><br>
+            
+                    <label for="termos">Concordo com os termos de uso:</label>
+                    <input type="checkbox" id="termos" name="termos"><br><br>
+            
+                    <label for="envio-email">Aceito o envio de emails:</label>
+                    <input type="checkbox" id="envio-email" name="envio-email"><br><br>
+            
+                    <input type="submit" value="Enviar">
+                </form>              
+            </div>
+            <div class="vazio">
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p id="footerText">© Copyright 2000-2023 SoulComic Comunicação S.A</p><br>
+        <div class="boxIcon">
+            <div>
+                <a href="https://www.linkedin.com/company/soulcodeacademy/"><img src="linkedin.svg" alt="" class="icon"></a>
+            </div>
+
+            <div>
+                <a href="https://www.instagram.com/soulcodeacademy/"><img src="instagram.svg" alt="" class="icon"></a>
+            </div>
+
+            <div>
+                <a href="https://soulcode.com/"><img src="browser-chrome.svg" alt="" class="icon"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
