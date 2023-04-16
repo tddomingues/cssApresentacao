@@ -96,8 +96,9 @@ section {
 }
 
 aside {
+    margin-bottom: 10px;
     background-color: rgb(255, 255, 255); 
-    height: 90vh;
+    height: 100%;
     width: 20vw; /*Está ocupado 20% (largura) da viewport e o restante fica com o delimitacaoContainer*/
 }
 
@@ -183,6 +184,106 @@ aside {
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
 }
 
+#noticia5 {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    background-image: url('retrato.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+#noticia6 {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    background-image: url('twd.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+#noticia7 {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    background-image: url('serio.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+#noticia8 {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    background-image: url('estatisica.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+#noticia9 {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    background-image: url('literalmente.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+#noticia10 {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    background-image: url('a\ manchete.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+#noticia11 {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    background-image: url('protesto.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+#noticia12 {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    background-image: url('morte.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+#noticia13 {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    background-image: url('paranaue.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+
 /*Logo que está alocado a noticia*/
 .containerNoticia {
     margin-left: 20vw;
@@ -208,16 +309,15 @@ aside {
     padding: 9px;
     margin-right: 3vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     border: 1px solid rgb(144, 144, 144); 
-    text-align: center; 
-    
-    
+    text-align: center;    
 }
 
-#noticiaHot {
-    background-color: black;
+.noticiaHot1 {
+    display: flex;
+    background-color: rgb(0, 0, 0);
     height: 200px;
     width: 10vw;
     background-image: url('ganhadorLoteria.png');
@@ -226,6 +326,73 @@ aside {
     border-radius: 3px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
 }
+
+.noticiaHot2 {
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 10vw;
+    background-image: url('a\ gente\ desc.jpg');
+    background-position: center;
+    background-size: cover; 
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.noticiaHot3 {
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 10vw;
+    background-image: url('coerencia.jpg');
+    background-position: center;
+    background-size: cover; 
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.noticiaHot4 {
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 10vw;
+    background-image: url('nada\ bom.jpg');
+    background-position: center;
+    background-size: cover; 
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.noticiaHot5 {
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 10vw;
+    background-image: url('boa\ noticia.jpg');
+    background-position: center;
+    background-size: cover; 
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.noticiaHot6 {
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 10vw;
+    background-image: url('apenas\ um.webp');
+    background-position: center;
+    background-size: cover; 
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.noticiaHot7 {
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 10vw;
+    background-image: url('roarrr.jpg');
+    background-position: center;
+    background-size: cover; 
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
 
 .tituloHotNews {
     text-align: center;
