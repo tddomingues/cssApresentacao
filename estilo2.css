@@ -319,7 +319,7 @@ section {
     background-color: rgb(0, 0, 0);
     height: 200px;
     width: 10vw;
-    background-image: url('ganhadorLoteria.png');
+    background-image: url('ifood.jpg');
     background-position: center;
     background-size: cover; 
     border-radius: 3px;
@@ -392,6 +392,30 @@ section {
     height: 200px;
     width: 10vw;
     background-image: url('roarrr.jpg');
+    background-position: center;
+    background-size: cover; 
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.noticiaHot8 {
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 10vw;
+    background-image: url('jack.jpeg');
+    background-position: center;
+    background-size: cover; 
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.noticiaHot9 {
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 10vw;
+    background-image: url('gato.webp');
     background-position: center;
     background-size: cover; 
     border-radius: 3px;

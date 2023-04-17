@@ -8,14 +8,37 @@
     <link rel="stylesheet" href="estilo2.css">
 </head>
 <body>
+    <div class="relogio">
+        <div>
+            <span id="horas">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+
+        <div>
+            <span id="minutos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+
+        <div>
+            <span id="segundos">00</span>
+            <span class="tempo">Segundos</span>
+        </div>
+    </div><br>
+    
     <script src="script.js"></script>
     <header>
         <nav>
             <ul>
-                <li><a href="">Economia</a></li>
+                <li><a href="">Babados</a></li>
             </ul>
             <ul>
-                <li><a href="">Fofoca</a></li>
+                <li><a href="">Fofocas</a></li>
+            </ul> 
+            <ul>
+                <li><a href="">Incredulidades dos famosos</a></li>
+            </ul> 
+            <ul>
+                <li><a href="">Curiosidades das Celebridades</a></li>
             </ul> 
         </nav>
 
@@ -34,47 +57,117 @@
     </header>
 
     <section>
-        <div class="containerNoticia">
-            <div class="boxNoticia">
-                <h1>Cadastro</h1><br>
-                <form class="formDesign">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome"><br><br>
-            
-                    <label for="sobrenome">Sobrenome:</label>
-                    <input type="text" id="sobrenome" name="sobrenome"><br><br>
-            
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email"><br><br>
-            
-                    <label for="data-nascimento">Data de nascimento:</label>
-                    <input type="date" id="data-nascimento" name="data-nascimento"><br><br>
-            
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" id="telefone" name="telefone"><br><br>
-            
-                    <label for="interesse">Qual conteúdo mais te interessa?</label>
-                    <select id="interesse" name="interesse">
-                        <option value="noticias">Notícias</option>
-                        <option value="fofocas">Fofocas</option>
-                        <option value="entretenimento">Entretenimento</option>
-                    </select><br><br>
-            
-                    <label for="termos">Concordo com os termos de uso:</label>
-                    <input type="checkbox" id="termos" name="termos"><br><br>
-            
-                    <label for="envio-email">Aceito o envio de emails:</label>
-                    <input type="checkbox" id="envio-email" name="envio-email"><br><br>
-            
-                    <input type="submit" value="Enviar">
-                </form>              
-            </div><br><br><br>
-            <div class="enviarFofocas">
-                <h2>Gostaria de receber fofocas no seu E-mail ?</h2>
-                <br><button onclick="mostrarConfirm()">Enviar fofocas cômicas</button>
-                <div id="caixa-dialogo"></div>
+        <div class="delimitacaoContainer">
+            <div class="container"> 
+                <div class="containerNoticia">
+                    <div class="boxNoticia">
+                        <h1>Cadastro</h1><br>
+                        <form class="formDesign">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome"><br><br>
+                    
+                            <label for="sobrenome">Sobrenome:</label>
+                            <input type="text" id="sobrenome" name="sobrenome"><br><br>
+                    
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email"><br><br>
+                    
+                            <label for="data-nascimento">Data de nascimento:</label>
+                            <input type="date" id="data-nascimento" name="data-nascimento"><br><br>
+                    
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone"><br><br>
+                    
+                            <label for="interesse">Qual conteúdo mais te interessa?</label>
+                            <select id="interesse" name="interesse">
+                                <option value="noticias">Notícias</option>
+                                <option value="fofocas">Fofocas</option>
+                                <option value="entretenimento">Entretenimento</option>
+                            </select><br><br>
+                    
+                            <label for="termos">Concordo com os termos de uso:</label>
+                            <input type="checkbox" id="termos" name="termos"><br><br>
+                    
+                            <label for="envio-email">Aceito o envio de emails:</label>
+                            <input type="checkbox" id="envio-email" name="envio-email"><br><br>
+                    
+                            <input type="submit" value="Enviar">
+                        </form>              
+                    </div><br><br><br>
+                    <div class="enviarFofocas">
+                        <h2>Gostaria de receber fofocas no seu E-mail ?</h2>
+                        <br><button onclick="mostrarConfirm()">Enviar fofocas cômicas</button>
+                        <div id="caixa-dialogo"></div>
+                    </div>
+                </div>            
             </div>
         </div>
+
+        <aside>   
+            <br>         
+            <div class="boxHotNews">
+                <h4></h4>
+                <a href="https://www.ifood.com.br/"> 
+                    <br><div class="noticiaHot1"></div> <br>
+                </a>
+
+                <h3>Hot News</h3>
+                <div class="linha"></div><br>
+
+                <h4>Hugh Jackman leva soco de homem invisível</h4>
+                <a href="noticia2.html"> 
+                    <br><div class="noticiaHot8"></div> <br>
+                </a>
+
+                <div class="linha"></div><br>
+                <h4>Gato é 'preso'</h4>
+                <a href="noticia1.html"> 
+                    <br><div class="noticiaHot9"></div> <br>
+                </a>
+
+                <div class="linha"></div><br>
+                <h4>Nada bom. </h4>
+                <p></p>
+                <a href="paginaFake.html"> 
+                    <br><div class="noticiaHot4"></div> <br>
+                </a>
+
+                <div class="linha"></div><br>
+                <h4>Boa notícia!</h4>
+                <a href="paginaFake.html"> 
+                    <br><div class="noticiaHot5"></div> <br>
+                </a>
+
+                <div class="linha"></div><br>
+                <h4>Apenas um dia comum.</h4>
+                <a href="paginaFake.html"> 
+                    <br><div class="noticiaHot6"></div> <br>
+                </a>
+
+                <div class="linha"></div><br>
+                <h4>Roarrrr!</h4>
+                <a href="paginaFake.html"> 
+                    <br><div class="noticiaHot7"></div> <br>
+                </a>
+                                          
+            </div><br>
+
+            <div class="boxHotNews">
+                <h3>Veja isso</h3>
+                <div class="linha"></div><br>
+                <h4>Kim Kardashian adota um unicórnio e é vista passeando com ele em 
+                    Los Angeles.</h4><br>
+                <div class="linha"></div><br>
+                <h4>Justin Bieber é flagrado usando pijama de emoji durante o jantar 
+                    em um restaurante de luxo.</h4><br>
+                <div class="linha"></div><br>                           
+                <h4>Lady Gaga muda seu nome para Lady Cachorrinha após se encantar com 
+                    um filhote de cachorro abandonado.</h4><br>
+                <div class="linha"></div><br>
+                <h4>A irmã caçula de Beyoncé é flagrada dançando no meio da rua com uma 
+                    fantasia de unicórnio.</h4>
+            </div>
+        </aside>
     </section>
 
     <footer>
