@@ -28,7 +28,7 @@ const relogio = setInterval(function time() {
 function mostrarConfirm() {
     var resposta = window.confirm("Deseja enviar fofocas cômicas para nós?");
     if (resposta === true) {
-      var email = window.prompt("Digite seu endereço de e-mail:");
+      return window.prompt("Digite seu endereço de e-mail:");
     } else {
     }
   }

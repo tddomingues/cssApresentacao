@@ -15,16 +15,24 @@ footer {
     background-color: #FFB000;   
 }
 
+.boxIcon {
+    margin-right: 3vw;
+    padding: 9px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 /*icones das redes sociais (está dentro do footer)*/
 .icon {
     width: 30px;
 }
 
 /*Categorias do site*/
-nav {
+nav { 
     padding: 9px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
     background-color: rgb(252, 252, 252); 
 }
 
@@ -66,7 +74,7 @@ nav a:hover {
 
 /*Mexe no estilo dos botões clicavéis inicio, cadastro e login*/
 .linksInicio li a {
-    color: #263E51;
+    color: #000000;
     font-weight: bolder;
     text-decoration: none;
     font-size: 19px;
@@ -85,30 +93,14 @@ nav a:hover {
     height: 130px;
 }
 
+/*bloco de noticia com o bloco aside */
 section {
     display: flex;
-    flex-direction: row;
 }
 
-#delimitacaoContainer {
+.delimitacaoContainer {
     height: 100%;
     flex: 1; /*Como será posicionado*/
-}
-
-aside {
-    display: flex; /*coloquei agora*/
-    flex-direction: column; /*coloquei agora*/
-    margin-bottom: 10px;
-    height: 100%;
-    width: 20vw; /*Está ocupado 20% (largura) da viewport e o restante fica com o delimitacaoContainer*/
-}
-
-.boxIcon {
-    margin-right: 3vw;
-    padding: 9px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 /*Local onde vai alocar os icones das noticias*/
@@ -140,6 +132,7 @@ aside {
     opacity: 95%;
 }
 
+/*Ioan================================================*/
 #noticia1 {
     background-color: black;
     height: 300px;
@@ -283,7 +276,6 @@ aside {
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
 }
 
-
 /*Logo que está alocado a noticia*/
 .containerNoticia {
     margin-left: 20vw;
@@ -303,13 +295,22 @@ aside {
     
 }
 
+.tituloHotNews {
+    text-align: center;
+}
+/*Ioan================================================*/
+
+
+
 /*As noticias (Hot News e Veja isso) dentro do aside*/
 .boxHotNews {
     border-radius: 3px;
+    border: 1px solid rgb(144, 144, 144);
     padding: 9px;
     margin-right: 3vw;
-    flex-wrap: wrap;
-    border: 1px solid rgb(144, 144, 144); 
+    margin-top: 30px;
+    margin-bottom: 10px;
+    flex-wrap: wrap; 
     text-align: center;    
 }
 
@@ -397,11 +398,6 @@ aside {
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
 }
 
-
-.tituloHotNews {
-    text-align: center;
-}
-
 /*Linha estética no aside*/
 .linha {
     margin: auto;
@@ -448,15 +444,13 @@ label {
 
 .containerVideo {
     padding-top: 10px;
-    padding-left:  1.7vw ;
+    padding-left: 10%;
 }
 
 #boxVideo {
-    margin: auto;
     width: 95vw;
     height: 100vh;
     border-radius: 20px;
-    border-color: #ffffff;
 }
 
 
